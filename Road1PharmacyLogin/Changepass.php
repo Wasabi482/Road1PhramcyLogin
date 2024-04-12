@@ -20,15 +20,16 @@
    
 </head>
 
-<body class="bg-dark">
+<body class="bg-dark background">
    <div class="section ">
       <div class="container ">
          <div class="image">
-         <button class="return" onclick="goBack()"><img width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/circled-left--v1.png" alt="circled-left--v1"/></button>
+         <a href="Login.php" class="return"><img width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/circled-left--v1.png" alt="circled-left--v1"/></a>
             <div class="logo">
                <img class="logo-image" src="IMG_5789__1_-removebg-preview.png" alt="logo">
                <h1>Road 1 Pharmacy</h1>
             </div>
+            <p>Your One Stop Healthcare Pharmacy</p>
          </div>
          <div class="form-section bg-dark" >
             <form  method="post" action="../actions/register.php">

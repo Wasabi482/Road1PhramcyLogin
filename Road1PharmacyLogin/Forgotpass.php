@@ -18,7 +18,7 @@
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<body class="bg-dark">
+<body class="bg-dark background">
    <div class="section ">
       <div class="container ">
          <div class="image">
@@ -27,6 +27,7 @@
                <img class="logo-image" src="IMG_5789__1_-removebg-preview.png" alt="logo">
                <h1>Road 1 Pharmacy</h1>
             </div>
+            <p>Your One Stop Healthcare Pharmacy</p>
          </div>
          <div class="form-section bg-dark" >
             <form  method="post" action="../actions/register.php">
@@ -43,7 +44,7 @@
                   <input type="email" class="input bg-dark" name="email" required placeholder="Email">
                   <label for="email">Email</label>
                </div>
-                  <button type="submit" name="submit" class="btn btn-primary button"><a href="Changepass.php" style="text-decoration: none; color:white;">Send Email</a></button>
+                  <button type="submit" name="submit" class="btn btn-primary button" onclick="window.location.href='Changepass.php'">Send Email</button>
             </form>
          </div>
       </div>
