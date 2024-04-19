@@ -496,7 +496,7 @@ div.faq-section1 h1{
 .faq-card:hover{
     transform: scale(1.1);
 }
-@media only screen and (max-width:1200px){
+@media only screen and (min-width:1200px){
     .card-box{
        height: 700px;
         font-size: 10px;
@@ -529,7 +529,7 @@ div.faq-section1 h1{
     }
     
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 7680px) {
     .frontpage-background{
         background:none;
         background-color: black;
@@ -601,7 +601,7 @@ div.faq-section1 h1{
         height: 50px;
     }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 480px) {
     .section-image{
         display: none;
     }
