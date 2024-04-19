@@ -1,0 +1,638 @@
+*{
+    color: white;
+}
+
+.background{
+
+    background-color: #212529;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.section{
+
+    width: 70%;
+    height: 100%;
+    margin-top: 50px;
+    padding: 0;
+    
+}
+.container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    position: relative;
+    display: flex;
+    width: max-content;
+    height: 600px;
+    padding: 0;
+    
+    
+}
+.image{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1642055514517-7b52288890ec?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBoYXJtYWN5fGVufDB8fDB8fHww);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, -10);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.form-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.logo{
+    display: flex;
+    align-self: center;
+    margin-top: 250px;
+}
+
+form{
+   
+   
+    align-self: center;
+
+}
+
+.input-form{
+    
+    margin:10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.hidden-label{
+    opacity: 0;
+    font-size: 10px;
+}
+.input-form > input:focus +.hidden-label{
+    opacity: 1;
+    color:white ;
+    font-size: 20px;
+}
+.button{
+    margin:10px;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+.btn{
+    font-size: 20px;
+}
+
+.input{
+   border: none;
+   border-bottom: 2px solid white;
+   background: none;
+   padding: 10px;
+   width: 100%;
+
+
+}
+
+.input:active,
+.input:focus,
+.input-form:active,
+.input:hover {
+
+	outline: none;
+	border-bottom-color: #6A679E;
+}
+
+.other-sign-in{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.icons{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.return{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 10px;
+    left: 10px;
+
+}
+
+.logo-image{
+    width: 50px;
+    filter: brightness(1.53) contrast(1.5);
+}
+
+.logo-image-navbar{
+    width: 20px;
+    height: auto;
+    filter: brightness(1.53) contrast(1.5);
+    font-size: 20px;
+}
+
+
+.frontpage-background{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1642055514517-7b52288890ec?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBoYXJtYWN5fGVufDB8fDB8fHww);
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.frontpage-container{
+    background-color: #587c84;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar{
+    z-index: 2;
+    background-color: #587c84;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    flex-direction: row;
+    
+}
+.navbar-nav{
+    background-color: #587c84;
+    border-radius: 10px;
+}
+.nav-item{
+    margin-left: 10px;
+}
+.title{
+  
+    text-decoration: none;
+    color: white;
+}
+
+.frontpage-section{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    
+}
+.trending-topics{
+    width: 100%;
+    height: 300px;
+    margin-top: 200px;
+  
+}   
+.h1{
+    margin-left: 20px;
+}
+
+.navbar-button{
+    
+    background-color: #282444;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+}
+
+.darkblue-button{
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar-button:hover,
+.sec-button:hover{
+    background-color: transparent;
+    border: solid #282444;
+    color: #282444;
+}
+
+.navbar-dropdown{
+    margin-left: 30%;
+}
+
+.section-1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding-top: 200px;
+    justify-content: space-around;
+    z-index: 1;
+  
+}
+
+
+.quote{
+    
+    padding-left: 10px;
+    font-size: 50px;
+    text-align: left;
+    font-weight: bold;
+   
+   
+    
+}
+.section-button{
+    position: absolute;
+    background-color: #587c84;
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align:center;
+    
+    
+}
+
+
+.section-2{
+    width: 50%;
+    height: 100%;
+    
+   
+}
+
+.section-image{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.topics{
+  
+    margin-left: 10px;
+}
+
+.square-button{
+    z-index: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+.box{
+    background-color: #d0d4dc;
+    border: none;
+    border-radius: 10px;
+    color:darkblue;
+    font-weight: bold;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    transform: scale(.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box:hover, .rectangle:hover{
+    transform: scale(1);
+}
+
+.img-topics{
+    width: 100px;
+    height: 100px;
+}
+.ai-chatbot{
+    position: fixed;
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    bottom: 10%;
+    right: 10%;
+    
+
+
+}
+.chatbot{
+    width: 100px;
+    height: 100px;
+}
+
+.guide{
+    color: gray ;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cont {
+    background-color:#f4ecfc;
+    width: 60%;
+    height: 1600px;
+    margin-top: 100px;
+    color: black;
+
+}
+
+
+.aboutus-header{
+    margin-top: 50px;
+    text-align: center;
+}
+.aboutus-p{
+    color: black;
+    text-align: center;
+}
+#about{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-box{
+    margin-bottom: 100px;
+    background-color: white;
+    max-height: 400px;
+    border-radius: 10px;
+    transform: scale(1);
+    
+}
+
+.card-box:hover{
+    transform: scale(1.1);
+
+}
+
+.img-cont{
+    position: relative;
+    z-index: -1;
+}
+.card-img{ 
+    padding: 1px;
+    height: 200px;
+    width: min-content;
+    object-fit: cover;
+ 
+
+    
+}
+
+.faq-card-yellow{
+    background-color: yellow;
+    color: black;
+    position: absolute;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.card-info{
+    max-height: 100%;
+    overflow-wrap: break-word;
+    display: flex;
+    text-wrap: balance;
+    flex-direction: column;
+    overflow-y: auto;
+
+}
+.caption{
+    margin-top: 20px;
+    color: #587c84;
+    font-size: 20px;
+    font-weight: bold;
+}
+.definition{
+    color: #587c84;
+    font-size: 15px;
+}
+
+.faq{
+    display: flex;
+    height: 800px;
+}
+
+.faq-section1{
+
+    width: 30%;
+    color: black;
+    padding: 20px;
+
+}
+div.faq-section1 h1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.faq-section2{
+    display: flex;
+   
+    width: 70%;
+    height: 100%;
+    justify-items: center;
+    align-content: center;
+}
+.faq-box{
+   
+    width: 80%;
+    height: 50%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    justify-items: center;
+    margin-top: 40px;
+    margin-left: 80px;
+    
+}
+
+.faq-card{
+    background-color: white;
+    padding:1rem;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    border: none;
+    transform: scale(1);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.faq-icon{
+    width: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    background-color: #587c84;
+}
+
+.faq-card:hover{
+    transform: scale(1.1);
+}
+@media only screen and (max-width:1200px){
+    .card-box{
+       height: 700px;
+        font-size: 10px;
+    }
+    .card-box:hover{
+        transform:scale(1);
+    }
+    .card-img{ 
+        object-fit: contain;
+        height: 250px;
+     
+    }
+    .faq{
+        flex-direction: column;
+    }
+    .faq-section1{
+        width: 100%;
+    }
+
+    .faq-section2{
+        flex-direction: column;
+       
+        width: 100%;
+        
+
+    }
+    .faq-box{
+        margin: 0;
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width: 800px) {
+    .frontpage-background{
+        background:none;
+        background-color: black;
+    }
+    .frontpage-container{
+        height: 1500px;
+        width: 100%;
+    }
+   .frontpage-section{
+    flex-direction: column;
+   }
+   
+   .square-button{
+    flex-direction: column;
+   }
+   .box{
+    width: 100%;
+   }
+   .cont{
+    width: 100%;
+    height: 2300px;
+   }
+   .aboutus-card{
+    
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    }
+    .card-box{
+        width: 300px;
+        height: 1000px;
+    
+    } 
+    .card-box:hover{
+        transform:scale(1);
+    }
+    .card-img{
+        height: 250px;
+    }
+    .small-card{
+        height: 200px;
+    }
+   
+    .faq{
+        flex-direction: column;
+    }
+    .faq-section1{
+        width: 100%;
+    }
+    .faq-section2{
+        flex-direction: column;
+        
+        width: 100%;
+        
+    
+    }
+
+    .ai-chatbot{
+        width: 50px;
+        height: 50px;
+        bottom: 10%;
+        right: 10%;
+        
+    
+    
+    }
+    .chatbot{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .section-image{
+        display: none;
+    }
+
+    .aboutus-card{
+      
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .card-box{
+        width: 80%;
+
+    }
+    .small-card{
+        height: 200px;
+    }
+    .faq-section2{
+        align-items: center;
+    }
+    .faq-box{
+        display: flex;
+       flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+
+    .chatbot{
+        right: 10px;
+        top: 0;
+        position: absolute;
+        z-index: 2;
+    }
+}
